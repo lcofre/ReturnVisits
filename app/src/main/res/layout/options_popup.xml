@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/options_popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lcofre.returnvisits.MapsActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/short_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:textColor="@android:color/black" />
+
+        <ImageButton
+            android:id="@+id/edit"
+            android:layout_height="24dp"
+            android:layout_width="24dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_mode_edit_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_height="24dp"
+            android:layout_width="24dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_delete_black_24dp" />
+
+    </LinearLayout>
+</RelativeLayout>
